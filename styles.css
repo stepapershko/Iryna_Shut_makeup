@@ -1,0 +1,249 @@
+.body {
+    min-width: 1280px;
+}
+
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.content-wrapper {
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.banner {
+    height: 50px;
+    padding: 20px;
+}
+
+.logo-block span {
+    position: fixed;
+}
+
+.logo-block span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.menu-block span {
+    cursor: pointer;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.menu-block span:hover {
+    color: black;
+    transition: 0.5s;
+    box-shadow: 0 0 2px rgba(0,0,0,0); /* Параметры тени */
+    text-shadow: 1px 1px 2px black, 0 0 1em rgba(255, 156, 149, 0.02);
+}
+
+.menu-block {
+    justify-content: flex-end;
+    display: flex;
+}
+
+
+.image-container {
+    width: 70%;
+    float: left;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.hidden {
+    display: none;
+}
+
+.slide-wrapper {
+    transition: opacity 3s linear;
+}
+
+.about-me {
+    background-color: black;
+    min-height: 630px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-me_header {
+    padding-top: 70px;
+}
+
+.about-me_text {
+    height: 60%;
+    padding-top: 100px;
+}
+
+
+.happy-customer {
+    background: black;
+    height: 80px;
+}
+
+.customers-container1 {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.customers-container1 img {
+    width: 100%;
+}
+
+.customers-container2 {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+
+.customers-container2 img {
+    width: 100%;
+}
+
+.soc-container {
+    justify-content: space-around;
+}
+
+.soc-container a {
+    color: black;
+}
+
+.soc-container a:hover {
+    /*color: #23b6b6;*/
+    color: black;
+    transition: 0.5s;
+    box-shadow: 0 0 2px rgba(0,0,0,0); /* Параметры тени */
+    text-shadow: 1px 1px 2px black, 0 0 1em rgba(255, 156, 149, 0.02);
+}
+
+#menu-panel {
+    position: fixed;
+    height: 100%;
+    width: 25%;
+    top: 90px;
+    background: #17191b;
+}
+
+.menu-panel-visible {
+    right: 0;
+    transition: 1.5s;
+}
+
+.menu-panel-hidden {
+    right: -35%;
+    transition: 1.5s;
+}
+
+.fa-times-circle {
+    color: white;
+    position: absolute;
+    right: 410px;
+    left: -50px;
+    cursor: pointer;
+}
+
+.menu-contant {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+    height: 100%;
+}
+
+.study-menu-section {
+    height: 7%;
+    border-bottom: 1px solid white;
+    margin: 30px;
+}
+
+
+.study-menu-section span:hover {
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s;
+    text-shadow: 1px 1px;
+}
+
+
+.equipment-menu-section {
+    height: 7%;
+    border-bottom: 1px solid white;
+    margin: 30px;
+}
+
+.equipment-menu-section span:hover {
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s;
+    text-shadow: 1px 1px;
+}
+
+.order_equipement-menu-section {
+    height: 7%;
+    border-bottom: 1px solid white;
+    margin: 30px;
+}
+
+.order_equipement-menu-section span:hover {
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s;
+    text-shadow: 1px 1px;
+}
+
+.contact-section {
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.email-section {
+    height: 100px;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.type-email-section {
+    margin-top: 40px;
+}
+
+.email-section span:hover {
+    cursor: pointer;
+}
+
+.type-email-section input {
+    width: 250px;
+    height: 30px;
+}
+
+.send-button {
+    margin-top: 25px;
+}
+
+.send-button button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: gray;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
